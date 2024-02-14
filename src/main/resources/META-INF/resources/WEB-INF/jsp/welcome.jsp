@@ -9,6 +9,5 @@
 <body>
 <div>Hello Welcome ALL</div>
 <div>your name : ${name}</div>
-<div>your password : ${password}</div>
 </body>
 </html>

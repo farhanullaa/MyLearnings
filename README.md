@@ -21,14 +21,14 @@ $ git branch <New branch name>
 # Deploy spring boot app with docker
 1. Create Spring boot App
 2. Package Boot using "mvn clean package"
-3. write Dockerfile to build docker image
-- check the docker image -> "docker images"
-- create a docker image -> "docker build -t <ImageName> ."
-4. create Docker Image using Dockerfile
-"FROM openjdk:17
-COPY target/MyLearning_docker_file.jar /usr/app/
-WORKDIR /usr/app
-ENTRYPOINT ["java","-jar","MyLearning_docker_file.jar"]"
+3. Write Dockerfile to build docker image
+- Check the docker image -> "docker images"
+- Create a docker image -> "docker build -t <ImageName> ."
+4. Create Docker Image using Dockerfile
+"FROM openjdk:17"
+"COPY target/MyLearning_docker_file.jar /usr/app/"
+"WORKDIR /usr/app"
+"ENTRYPOINT ["java","-jar","MyLearning_docker_file.jar"]"
 5. Run Docker image
 - "docker run -d -p 8080:8080 <ImageName>"
    

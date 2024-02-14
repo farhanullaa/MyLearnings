@@ -1,4 +1,4 @@
-Git hiub commands:
+Git hub commands:
 1. Create a new repository on GitHub. 
 2. Right-click on the project and choose ‘Show in Local Terminal’ - Git Bash
 3. Initialize the local directory as a Git repository.

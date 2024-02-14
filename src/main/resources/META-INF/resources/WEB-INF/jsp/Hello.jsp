@@ -6,6 +6,6 @@
 <meta charset="ISO-8859-1">
 </head>
 <body>
-		My First Hello html page with body - JSP
+		My first Hello html page with body
 </body>
 </html>

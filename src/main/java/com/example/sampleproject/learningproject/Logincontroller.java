@@ -17,12 +17,12 @@ public class Logincontroller {
 		this.authenticationservice = authenticationservice;
 	}
 
-	@RequestMapping(value = "login", method = RequestMethod.GET)
+	@RequestMapping(value = "Login", method = RequestMethod.GET)
 	public String gotopage() {
-		return "login";
+		return "Login";
 	}
 
-	@RequestMapping(value = "login", method = RequestMethod.POST)
+	@RequestMapping(value = "Login", method = RequestMethod.POST)
 	public String gotowelcome(@RequestParam String name, @RequestParam String password, ModelMap model) {
 		if (authenticationservice.authenticate(name, password)) {
 			model.put("name", name);
@@ -30,7 +30,7 @@ public class Logincontroller {
 			return "welcome";
 		}
 		model.put("Errormessage", "invalid cerdientials ! please provide correct credientials");
-		return "login";
+		return "Login";
 	}
 
 }

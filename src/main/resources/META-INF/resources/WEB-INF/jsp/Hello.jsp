@@ -4,9 +4,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>farhan ulla</title>
 </head>
 <body>
-		My first HEllo html page with body - JSP
+		My first Hello html page with body
 </body>
 </html>
